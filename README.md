@@ -21,7 +21,7 @@ A real-time human emotion detection system that classifies facial expressions in
 
 
 ---
-Dataset 📂
+##Dataset 📂
 FER-2013: A dataset containing 35,887 grayscale images (48x48 pixels) of facial expressions.
 
 Emotion Classes: Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised.
@@ -30,7 +30,7 @@ Data Augmentation: Techniques like rotation, flipping, and scaling were used to 
 
 ---
 
-Training Process 🧠
+##Training Process 🧠
 Data Preprocessing: Images were resized, normalized, and augmented.
 
 CNN Model: Built with multiple convolutional layers.
@@ -42,7 +42,7 @@ Evaluation: Achieved ~65% accuracy on the validation set.
 
 ---
 
-Pretrained Model 🤖
+##Pretrained Model 🤖
 Why Pretrained Models?:
 
 Save time by avoiding training from scratch.
@@ -57,7 +57,7 @@ Model Used: model.h5 (pretrained CNN model).
 ---
 
 
-Workflow 📊
+##Workflow 📊
 Capture: Use OpenCV to capture frames from the webcam.
 
 Face Detection: Detect faces using Haar Cascade.
@@ -86,7 +86,7 @@ Output Display: Display the detected emotion.
 
 ---
 
-Challenges 🚧
+##Challenges 🚧
 Model Accuracy & Generalization: Improving accuracy for diverse facial expressions.
 
 Real-Time Performance: Ensuring smooth real-time emotion recognition.
@@ -95,7 +95,7 @@ Ethical & Privacy Concerns: Addressing privacy issues related to facial data.
 
 ---
 
-Applications 🌍
+##Applications 🌍
 Mental Health Monitoring: Track emotional well-being.
 
 Gaming: Enhance user experience with emotion-based interactions.
@@ -109,7 +109,7 @@ Customer Service: Improve customer interactions by analyzing emotions.
 
 ---
 
-Future Improvements 🔮
+##Future Improvements 🔮
 Improve Accuracy: Use larger datasets or advanced models like FaceNet.
 
 Multiple Faces: Detect emotions for multiple faces in a single frame.
@@ -118,7 +118,7 @@ User-Friendly GUI: Add a graphical interface for easier interaction.
 
 ---
 
-Contributing 🤝
+##Contributing 🤝
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
